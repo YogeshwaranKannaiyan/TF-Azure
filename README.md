@@ -1,8 +1,8 @@
-Terraform Infrastructure Setup
+##Terraform Infrastructure Setup
 
-This repository contains Terraform scripts for provisioning and managing cloud infrastructure. Follow the steps below to set up and configure your environment using the provided Terraform configurations.
+#This repository contains Terraform scripts for provisioning and managing cloud infrastructure. Follow the steps below to set up and configure your environment using the provided Terraform configurations.
 
-Table of Contents
+#Table of Contents
 Prerequisites
 Project Structure
 Terraform Versions
@@ -14,7 +14,7 @@ Contributing
 License
 
 
-Prerequisites
+#Prerequisites
 Before using these Terraform scripts, ensure that you have the following:
 
 Terraform version >= 3.x installed.
@@ -23,16 +23,12 @@ Installed Git to clone the repository.
 Configured cloud provider CLI tools, such as:
 Azure CLI
 
-Project Structure
-
-bash
-Copy code
+#Project Structure
 ├── main.tf            # Main Terraform configuration
 ├── variables.tf       # Input variable definitions
 ├── outputs.tf         # Output values of the resources
 ├── provider.tf        # Provider configuration (AWS, Azure, GCP, etc.)
 ├── terraform.tfvars   # Default values for variables
-├── README.md          # Project documentation
 └── modules/           # Modules directory for reusable components
 
 main.tf: Contains the primary resource configuration.
@@ -63,7 +59,8 @@ Modify the terraform.tfvars or pass variables directly through the CLI.
 You can also set sensitive data using environment variables:
 bash
 Copy code
-export TF_VAR_variable_name=value
+export TF_VAR_variable_name=value[Readme.docx](https://github.com/user-attachments/files/17363881/Readme.docx)
+
 Plan and Apply:
 
 Review the infrastructure changes:
